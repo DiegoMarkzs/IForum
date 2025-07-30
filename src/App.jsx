@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './components/header';
-import Container from './components/Container/TabelaListarRelatos';
-import TabelaFazerRelato from './components/Container/TabelaFazerRelato';
-import RelatoAnalise from './components/Container/RelatoAnalise';
+import Header from './components/Header';
+import Container from './components/Container/Cliente/ListarRelatos-CLIENTE/TabelaListarRelatos';
+import TabelaFazerRelato from './components/Container/Cliente/FazerRelato-CLIENTE/TabelaFazerRelato';
+import RelatoAnalise from './components/Container/Cliente/AnalisarRelato-CLIENTE/RelatoAnalise';
 import { useState } from 'react';
 
 function App() {
